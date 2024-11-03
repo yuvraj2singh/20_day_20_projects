@@ -6,4 +6,4 @@ Weather app: This includes a basic SPA where u can write your city name in the i
 
 Day 2:
 
-To do list: This inludes a basic SPA where u can add tasks remove tasks check or uncheck tasks .
+To do list: This inludes a basic SPA where u can add tasks remove tasks check or uncheck tasks . live link https://to-do-list-yuvrajs.netlify.app/
