@@ -29,11 +29,11 @@ function createTask(content) {
         div.classList.toggle('strike-through');
         const currentIcon = div.style.getPropertyValue("--task-icon");
         if (currentIcon.includes('icons8-tick')) {
-            div.style.setProperty("--task-icon", "url('/To do list/images/icons8-circle-50.png')");
+            div.style.setProperty("--task-icon", "url('/To_do_list/images/icons8-circle-50.png')");
             div.style.opacity = '1';
             saveContent();
         } else {
-            div.style.setProperty("--task-icon", "url('/To do list/images/icons8-tick-in-circle-50.png')");
+            div.style.setProperty("--task-icon", "url('/To_do_list/images/icons8-tick-in-circle-50.png')");
             div.style.opacity = '0.5';
             saveContent();
         }

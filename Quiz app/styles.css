@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+body>h1{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.parent{
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 50px rgba(255,255,255,.4);
+    width: 500px;
+    margin: 100px auto;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+}
+.question{
+    font-size: 1.3rem;
+}
+.options{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputdiv{
+    background-color: #c8bebe;
+    padding: 4px;
+    border-radius: 12px;
+    transition: .4s ease;
+}
+.inputdiv:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #43403f;
+}
+.inputdiv{
+    margin: 10px;
+    display: flex;
+    gap: 30px;
+}
+.inputdiv input:focus{
+    background-color: gray;
+
+}
+
+.next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next button{
+    background-color: #43403f;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    width: 30%;
+    border-radius: 12px;
+    transition: .4s ease;
+}
+.next button:hover{
+    background-color: #c8bebe;
+    color: black;
+}
