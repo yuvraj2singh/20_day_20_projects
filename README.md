@@ -15,3 +15,5 @@ Quiz App: This includes a basic SPA where u have a question and 4 corresponding 
 Day 4:
 
 Random Password Generator: This is a basic SPA in which u can generate a strong Random Password with one click and also u can copy it with a single click button hosted this website on netlify and the host link is - https://random-password-generator-yuvrajs.netlify.app/
+
+There's a bug in this app like after 10 12 passwords one password of length 3 or 4 generates which is not possible, if u can fix this it would be gratefull!
