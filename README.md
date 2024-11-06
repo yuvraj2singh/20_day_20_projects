@@ -13,4 +13,5 @@ Day 3:
 Quiz App: This includes a basic SPA where u have a question and 4 corresponding answers to them out of which one of them is correct and one of them is compulsory to be selected at last u get the result of the test with score and percentage hosted it on netlify and link is: https://quiz-app-yuvrajs.netlify.app/
 
 Day 4:
+
 Random Password Generator: This is a basic SPA in which u can generate a strong Random Password with one click and also u can copy it with a single click button hosted this website on netlify and the host link is - https://random-password-generator-yuvrajs.netlify.app/
