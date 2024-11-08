@@ -21,3 +21,7 @@ There's a bug in this app like after 10 12 passwords one password of length 3 or
 Day 5:
 
 Notes App: This is by far the most interesting and informative project where i made a Notes App in which u can add your notes by giving Heading edit the heading delete any particular note add any number of notes and also save the note and the data is stored in the local storage of the browser so if u come back then also you will find your notes in the web. hosted it on netlify host link - https://notes-app-yuvrajs.netlify.app/
+
+Day 6:
+
+Age Calculator: This is a SPA where u can add your date of birth and u will in return get your age in years months and days hosted it on netlify host link-https://age-calculator-yuvrajs.netlify.app/
