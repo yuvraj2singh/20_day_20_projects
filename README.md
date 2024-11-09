@@ -25,3 +25,7 @@ Notes App: This is by far the most interesting and informative project where i m
 Day 6:
 
 Age Calculator: This is a SPA where u can add your date of birth and u will in return get your age in years months and days hosted it on netlify host link-https://age-calculator-yuvrajs.netlify.app/
+
+Day 7:
+
+Random quote generator: This is a SPA where u can get a new quote after every refresh and also by clicking the new quote button hosted it on netlify and the host link- https://quote-gernerator-yuvrajs.netlify.app/
