@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.parent {
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.parent h1 {
+  font-family: cursive;
+  font-size: 3rem;
+  position: relative;
+  text-align: center;
+}
+
+.parent h1::after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  border-radius: 12px;
+  background-color: lightseagreen;
+  position: absolute;
+  bottom: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.quote {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  overflow-wrap: break-word;
+  max-width: 800px;
+}
+
+.quote p {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.quote p::selection{
+    background-color: orange;
+    color: white;
+}
+
+.author {
+  align-self: flex-end;
+  margin-right: 10px;
+  font-size: 1.3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.buttons button{
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #72c3dd;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s ease;
+    cursor: pointer;
+}
+button img{
+    width: 25px;
+}
+.buttons button:hover{
+    background-color: blue;
+    transform: scale(1.1);
+    border: 1px solid white;
+}
+
+@media only screen and (max-width:500px) {
+    .parent h1{
+        font-size: 2rem;
+    }
+    .quote p{
+        font-size: 1rem;
+    }
+    .author{
+        font-size: .8rem;
+    }
+    .buttons button{
+        font-size: .7rem;
+    }
+}
