@@ -29,3 +29,7 @@ Age Calculator: This is a SPA where u can add your date of birth and u will in r
 Day 7:
 
 Random quote generator: This is a SPA where u can get a new quote after every refresh and also by clicking the new quote button hosted it on netlify and the host link- https://quote-gernerator-yuvrajs.netlify.app/
+
+Day 8:
+
+Qr code generator: This is a SPA where u can get the qr code for your written text or URL link in one single click! hosted it on netlify host link-https://qr-code-generator-yuvrajs.netlify.app/
