@@ -33,3 +33,7 @@ Random quote generator: This is a SPA where u can get a new quote after every re
 Day 8:
 
 Qr code generator: This is a SPA where u can get the qr code for your written text or URL link in one single click! hosted it on netlify host link-https://qr-code-generator-yuvrajs.netlify.app/
+
+Day 9:
+
+Toast Notification: Learnt how to add Error Success invalid side pop-ups with good animations;
