@@ -37,3 +37,7 @@ Qr code generator: This is a SPA where u can get the qr code for your written te
 Day 9:
 
 Toast Notification: Learnt how to add Error Success invalid side pop-ups with good animations;
+
+Day 10:
+
+Music app: This is a SPA in which I have added one song u can play pause see the real time progress bar of the song and also the duration and the song song current time updating as u change the current time of the song hosted it on netlify host link-https://music-app-yuvrajs.netlify.app/
