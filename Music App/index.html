@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="top">
+            <div><i class="fa-solid fa-angle-left"></i></div>
+            <div><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="thumbnail">
+            <img src="/images_audios/Die With A Smile, Lady Gaga And Bruno Mars.jpeg" alt="">
+        </div>
+        
+        <audio src="/images_audios/Die With A Smile (Bruno Mars, Lady Gaga)(Pagalworld.skin).mp3"></audio>
+
+        <div class="play_div"><span id="current_play_time">0:00</span><input type="range" id="range"><span id="total_duration"></span></div>
+        <div class="audio">
+            <div><i class="fa-solid fa-backward"></i></div>
+            <div class="play"><i class="fa-solid fa-play" id="play"></i></div>
+            <div><i class="fa-solid fa-forward"></i></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f623ef9c97.js" crossorigin="anonymous"></script>
+</body>
+</html>
