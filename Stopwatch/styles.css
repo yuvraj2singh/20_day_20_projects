@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.parent{
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url('');
+}
+.photo-ele{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.photo-ele i{
+    font-size: 32px;
+    color: white;
+    transition: .4s ease;
+}
+
+.photo-ele img{
+    width: 32px;
+    filter: invert(1);
+    transition: .4s ease;
+}
+.photo-ele div{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: gray;
+    transition: .4s ease;
+}
+
+.photo-ele div:hover img {
+    filter: invert(0);
+}
+
+.photo-ele div:hover i {
+    color: black;
+}
+
+.photo-ele div:nth-child(2):hover i {
+    color: red;
+}
+
+.photo-ele div:hover {
+    background-color: white;
+    transform: scale(1.3);
+}
+
+.time{
+    font-size: 32px;
+}
+
+#play{
+    width: 80px;
+    height: 80px;
+    i{
+        font-size: 50px;
+    }
+}
+.options{
+    align-self: flex-end;
+}
+
+#selection:focus{
+    outline: none;
+}
