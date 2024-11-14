@@ -45,3 +45,5 @@ Music app: This is a SPA in which I have added one song u can play pause see the
 Day 11:
 
 Stopwatch: This is a SPA in which i have added a stopwatch functionality where u can start pause and reset a stopwatch;
+
+Day 12:
