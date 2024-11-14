@@ -47,3 +47,5 @@ Day 11:
 Stopwatch: This is a SPA in which i have added a stopwatch functionality where u can start pause and reset a stopwatch;
 
 Day 12:
+
+Calculator: This is a SPA in which i embeded a Calculator with proper functionality;
