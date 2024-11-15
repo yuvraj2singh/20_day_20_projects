@@ -49,3 +49,7 @@ Stopwatch: This is a SPA in which i have added a stopwatch functionality where u
 Day 12:
 
 Calculator: This is a SPA in which i embeded a Calculator with proper functionality;
+
+Day 13:
+
+Pop up: This is a SPA in which on click submit a pop comes and on click ok the pop up dissappears;
