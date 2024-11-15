@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="submit">Submit</button>
+    <div class="popup effect">
+        <h2>Task Completed</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam reiciendis id veniam cum aspernatur ab ipsa quia nam vero perferendis.</p>
+        <button>OK</button>
+    </div>
+
+    <script>
+        const submit=document.querySelector("#submit");
+        const ok = document.querySelector(".popup button");
+        const popup=document.querySelector(".popup");
+        submit.addEventListener("click",()=>{
+            popup.classList.remove("effect");
+        })
+        ok.addEventListener('click',()=>{
+            popup.classList.add("effect");
+        })
+    </script>
+</body>
+</html>
