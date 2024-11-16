@@ -53,3 +53,7 @@ Calculator: This is a SPA in which i embeded a Calculator with proper functional
 Day 13:
 
 Pop up: This is a SPA in which on click submit a pop comes and on click ok the pop up dissappears;
+
+Day 14:
+
+Password show hide: This is a SPA in which on click eye button u can show and hide your password and also the eye button img also changes on click;
