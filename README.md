@@ -57,3 +57,7 @@ Pop up: This is a SPA in which on click submit a pop comes and on click ok the p
 Day 14:
 
 Password show hide: This is a SPA in which on click eye button u can show and hide your password and also the eye button img also changes on click;
+
+Day 15:
+
+Form Validation: This is a practice website in which i validated the form containing name email phone message and it won't be submitted unless all the input fields are not filled with proper form ;
