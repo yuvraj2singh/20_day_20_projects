@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*::selection{
+    background-color: transparent;
+}
+body{
+    height: 100vh;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.parent{
+    width: 906px;
+    display: flex;
+    gap: 3px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    
+}
+.parent img{
+    width: 300px;
+    flex: none;
+    filter: grayscale(1);
+    transition: .4s ease;
+    opacity: .4;
+}
+.parent img:hover{
+    filter: grayscale(0);
+    opacity: 1;
+    transform: scaleY(1.1);
+}
+.parent::-webkit-scrollbar{
+    display: none;
+}
+p{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 34px;
+}
+#left{
+    opacity: .3;
+}

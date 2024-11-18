@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Scrolling</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p id="left"><</p>
+    <div class="parent">
+        <img src="/hut-8843868_1280.jpg" alt="">
+        <img src="/hut-8843868_1280.jpg" alt="">
+        <img src="/hut-8843868_1280.jpg" alt="">
+        <img src="/hut-8843868_1280.jpg" alt="">
+        <img src="/hut-8843868_1280.jpg" alt="">
+        <img src="/hut-8843868_1280.jpg" alt="">
+    </div>
+    <p id="right">></p>
+
+    <script>
+        const parent=document.querySelector(".parent");
+        const left=document.querySelector("#left");
+        const right=document.querySelector("#right");
+        let count=0;
+
+        right.addEventListener("click",()=>{
+            parent.scrollLeft+=303;
+            count++;
+            if(count==3){
+                right.style.opacity=.3;
+            }
+            else{
+                right.style.opacity=1;
+            }
+            if(count==0){
+                left.style.opacity=.3;
+            }
+            else{
+                left.style.opacity=1;
+            }
+        })
+        left.addEventListener("click",()=>{
+            parent.scrollLeft-=303;
+            count--;
+            if(count==0){
+                left.style.opacity=.3;
+            }
+            else{
+                left.style.opacity=1;
+            }
+            if(count==3){
+                right.style.opacity=.3;
+            }
+            else{
+                right.style.opacity=1;
+            }
+        })
+    </script>
+</body>
+</html>
