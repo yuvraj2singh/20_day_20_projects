@@ -61,3 +61,7 @@ Password show hide: This is a SPA in which on click eye button u can show and hi
 Day 15:
 
 Form Validation: This is a practice website in which i validated the form containing name email phone message and it won't be submitted unless all the input fields are not filled with proper form ;
+
+Day 16:
+
+Image Slider: This is a SPA in which there are 6 images and two buttons for left and right ;
