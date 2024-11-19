@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength indicator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="temp">
+            <input type="password" onkeyup="StrengthIndicator()" name="password" placeholder="Password" id="password">
+            <button>Submit</button>
+        </div>
+        <p>Password is <span id="strength" ></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
