@@ -65,3 +65,7 @@ Form Validation: This is a practice website in which i validated the form contai
 Day 16:
 
 Image Slider: This is a SPA in which there are 6 images and two buttons for left and right ;
+
+Day 17:
+
+Password Strength Indicator: This is a SPA in which u can enter your password and it will tell you weather the passsword is strong weak or medium on the basis of usage of alnum and length of password;
