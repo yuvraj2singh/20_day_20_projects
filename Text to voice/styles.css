@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+::placeholder{
+    color: white;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background: linear-gradient(45deg,blue,orange,purple);
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+.last{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+.parent h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.parent textarea{
+    color: white;
+    width: 400px;
+    height: 150px;
+    resize: none;
+    padding: 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 12px;
+    background-color: darkcyan;
+}
+.last button{
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background-color: cadetblue;
+    cursor: pointer;
+    color: white;
+    border: 1px solid gray;
+    transition: .4s ease;
+}
+.last button:hover{
+    background-color: green;
+    font-size: 1.3rem;
+}
+.parent select{
+    padding: 5px;
+    flex: 1;
+    height: 35px;
+    border-radius: 30px;
+    background-color: darkcyan;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('/icons8-dropdown-50.png');
+    background-repeat: no-repeat;
+    background-size:30px ;
+    background-position-x: calc(95%);
+    background-position-y: calc(100%);
+    outline: none;
+}
