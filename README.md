@@ -73,3 +73,7 @@ Password Strength Indicator: This is a SPA in which u can enter your password an
 Day 18:
 
 Text to voice: This is a SPA in which u can enter yout text and select the voice as per your requirement and after clicking listen you will be listening the written text in the selected voice;
+
+Day 19:
+
+Select dropdown: This is a select dropdown in which u can select between different options available ;
