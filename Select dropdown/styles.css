@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: beige;
+}
+::selection{
+    background-color: transparent;
+}
+.select{
+    display: flex;
+    width: 300px;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: burlywood;
+    cursor: pointer;
+    transition: .4s ease;
+    p{
+        background-color: transparent;
+    }
+}
+.select img{
+    position: relative;
+    z-index: 10;
+    width: 30px;
+    mix-blend-mode: color-burn;
+    transition: transform .4s ease;
+}
+.parent{
+    width: fit-content;
+    margin: auto;
+}
+.options{
+    border-radius: 12px;
+    background-color: chocolate;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.opt{
+    border-bottom: 1px solid black;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.opt:hover{
+    background-color: bisque;
+    color: black;
+}
+.hide{
+    visibility: hidden;
+}
+.rotate{
+    transform: rotate(180deg);
+}
