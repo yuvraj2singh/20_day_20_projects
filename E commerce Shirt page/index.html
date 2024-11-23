@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="parent">
+        <div class="image-box">
+            <img id="image" src="https://m.media-amazon.com/images/I/71Qtc0KYlzL._SX679_.jpg" alt="">
+            
+             <div class="points">
+                <span id="one" class="active"></span>
+                <span id="two"></span>
+                <span id="three"></span>
+             </div>
+        </div>
+        <div class="content">
+            <h2>T-Shirt for men</h2>
+            <p>CreativiT Graphic Printed T-Shirt for Unisex Look for a Different Angle Tshirt | Casual Half Sleeve Round Neck T-Shirt | 100% Cotton | D00839-1</p>
+
+            <div class="sizes">
+                <label for="small">
+                    <input type="radio" name="size" value="small" id="small">
+                    <span>S</span>
+                </label>
+                <label for="medium">
+                    <input type="radio" name="size" value="medium" id="medium">
+                    <span>M</span>
+                </label>
+                <label for="large">
+                    <input type="radio" name="size" value="large" id="large">
+                    <span>L</span>
+                </label>
+                <label for="x-large">
+                    <input type="radio" name="size" value="x-large" id="x-large">
+                    <span>XL</span>
+                </label>
+                <label for="xx-large">
+                    <input type="radio" name="size" value="xx-large" id="xx-large">
+                    <span>XXL</span>
+                </label>
+            </div>
+
+            <div class="color">
+                <label for="red">
+                    <input type="radio" name="color" value="red" id="red">
+                    <div><span id="red"></span></div>
+                </label>
+                <label for="blue">
+                    <input type="radio" name="color" value="blue" id="blue">
+                    <div><span id="blue"></span></div>
+                </label>
+                <label for="green">
+                    <input type="radio" name="color" value="green" id="green">
+                    <div><span id="green"></span></div>
+                </label>
+                <label for="black">
+                    <input type="radio" name="color" value="black" id="black">
+                    <div><span id="black"></span></div>
+                </label>
+                <label for="white">
+                    <input type="radio" name="color" value="white" id="white">
+                    <div><span id="white"></span></div>
+                </label>
+            </div>
+
+            <div class="quantity">
+                <span id="minus">-</span>
+                <div class="showamount">0</div>
+                <span id="plus">+</span>
+            </div>
+            
+            <div class="buttons">
+                <button>Buy Now</button>
+                <button id="add-to-cart">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="cart">
+        cart: <span id="cart-items">0</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
