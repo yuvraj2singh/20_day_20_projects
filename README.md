@@ -79,3 +79,5 @@ Day 19:
 Select dropdown: This is a select dropdown in which u can select between different options available ;
 
 Day 20
+
+E commerce Shirt page: This is a SPA in which u can select variouse attributes of a shirt (size, color and quantity) and after selecting all the attributes you can either buy now or add it to cart;
