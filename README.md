@@ -1,4 +1,4 @@
-This is a 30 days 30 projects challenge in which i will be continuously uploading 1 project everyday
+This is a 20 days 20 projects challenge in which i will be continuously uploading 1 project everyday
 
 Day 1:
 
